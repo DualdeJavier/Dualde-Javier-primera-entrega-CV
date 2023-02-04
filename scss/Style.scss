@@ -174,7 +174,7 @@ body {
     font-family: var(--tipo-secundaria);
     margin-left: 16%;
     color: var(--negro);
-    font-size: 25px;
+    font-size: 20px;
     text-justify: center;
     body.dark & {
         color: var(--blanco);
@@ -322,7 +322,7 @@ body {
     background: linear-gradient(to right, rgba(13, 13, 240, 0.929) rgba(26, 11, 143, 0.472), url("https://images.unsplash.com/photo-1504542227056-9178533a9175?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80"));
     background-image: url("https://images.unsplash.com/photo-1504542227056-9178533a9175?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80");
     border: rgba(65, 14, 24, 0.929) solid 2px;
-    border-radius: 10%;
+    border-radius: 8%;
     text-shadow: 1px 1px 2px rgb(50, 69, 70);
     body.dark & {
         background-image: url("https://images.unsplash.com/photo-1513569771920-c9e1d31714af?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80");
@@ -400,8 +400,8 @@ body {
     display: flex;
 }
 .botones a {
-    width: 42px;
-    padding: 10px;
+    width: 36px;
+    padding: 1px;
     border: #000 solid 1px;
     border-radius: 50%;
     margin: 2px;
@@ -432,9 +432,9 @@ body {
     height: 90%;
 }
 .carrousel_container {
-    height: 100%;
     min-height: 300px;
-    max-height: 450px;
+    max-height: 600px;
+    height: 100%;
     display: grid;
     grid-column: 1/-1;
     grid-row: 2/-1;
@@ -481,7 +481,7 @@ body {
     line-height: 1;
 }
 .carrousel_body {
-    min-height: 100%;
+    min-height: 50%;
     grid-column: 2/3;
     grid-row: 1/2;
     opacity: 0;
@@ -877,7 +877,7 @@ body {
        line-height: 1;
    }
    .carrousel_body {
-       min-height: 100%;
+       min-height: 90%;
        grid-column: 2/3;
        grid-row: 1/2;
        opacity: 0;
@@ -1104,7 +1104,7 @@ body {
         margin: 3% 0% 2% 1%;
     }
     .slider_container {
-        min-height: 500px;
+        min-height: 600px;
         max-height: 800px;
         width: 100%;
         display: grid;
@@ -1177,7 +1177,7 @@ body {
 /* ASIDE */
     .botones {
         text-decoration: none;
-        margin-top: 95px;
+        margin-top: 80px;
         padding: 2px;
         border-radius: 2px;
         width: 110px;
@@ -1214,7 +1214,7 @@ body {
         justify-content: center;
     }
     .carrousel {
-        width: 100%;
+        width: 97%;
         height: 90%;
         margin: 1%;
     }
@@ -1272,7 +1272,7 @@ body {
 
     }
     .carrousel_body {
-        min-height: 100%;
+        min-height: 60%;
         grid-column: 2/3;
         grid-row: 1/2;
         opacity: 0;
@@ -1617,12 +1617,12 @@ body {
         justify-content: center;
     }
     .carrousel {
-        width: 100%;
+        width: 99%;
         height: 90%;
     }
     .carrousel_container {
         height: 100%;
-        min-height: 500px;
+        min-height: 600px;
         max-height: 800px;
         display: grid;
         grid-column: 1/-1;
@@ -1672,7 +1672,7 @@ body {
         line-height: 2;
     }
     .carrousel_body {
-        min-height: 100%;
+        min-height: 50%;
         grid-column: 2/3;
         grid-row: 1/2;
         opacity: 0;
@@ -2075,7 +2075,7 @@ body {
         line-height: 1.5;
     }
     .carrousel_body {
-        min-height: 100%;
+        min-height: 50%;
         grid-column: 2/3;
         grid-row: 1/2;
         opacity: 0;
@@ -2477,7 +2477,7 @@ body {
         line-height: 2;
     }
     .carrousel_body {
-        min-height: 100%;
+        min-height: 50%;
         grid-column: 2/3;
         grid-row: 1/2;
         opacity: 0;
@@ -3270,7 +3270,7 @@ body {
 
     }
     .carrousel_body {
-        min-height: 100%;
+        min-height: 50%;
         grid-column: 2/3;
         grid-row: 1/2;
         opacity: 0;
